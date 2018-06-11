@@ -139,7 +139,7 @@ body {
     .banner {
     	display: flex;
         flex-direction: row;
-        background-image:url("/pic.jpeg");
+        background-image:url("pic.jpeg");
         max-width: 100%;
         height: auto;	
         background-repeat: no-repeat;
