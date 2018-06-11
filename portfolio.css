@@ -1,0 +1,180 @@
+:root {
+  font-size: 16px; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  display: flex;  
+  margin:1vw;
+  flex-direction: column; }
+
+ .banner {
+
+  background: #2c2c2c;
+  border: 1px solid #2c2c2c;
+  border-radius: 10px;
+  box-shadow: 0px 3px 20px 2px #35eea4;
+  display: flex;
+  flex-direction: row;
+  }
+
+  .content{
+  	width: 35vw;
+  }
+
+.pic .myimage{
+    border: 1px solid #35eea4;
+    border-radius: 5px;
+    margin-left: 28vw;
+    margin-top: 0.5vw;
+     margin-bottom: 0.5vw;
+     margin-right: 0vw;
+    box-shadow: 0px 3px 20px 2px #468DAB;
+    width:33vw;
+    height: 78vh;
+    opacity: 0.5;
+
+}
+.myimage:hover{
+	opacity: 1;
+}
+
+  .banner .heading{
+    color: #35eea4;
+    font-size: 6vw;
+    margin-bottom: 5vh;
+    padding: 1vw; 
+    }
+
+   .banner .para{
+    	color:#29c253;
+    	font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 5vh;
+    padding: 3vw; 
+    font-family: 'Roboto Mono', monospace;
+    }
+    .interest{
+    	background: #E64824;
+        padding: 5vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .interest .h2{
+    	font-size: 2em;
+
+
+    }
+    .project .h2{
+    	font-size: 2em;
+    	
+
+    }
+    .interest .int{
+    	color:white;
+    }
+  
+   .me{
+        padding: 5vw;
+    }
+    
+    .project{
+        padding: 5vw;
+
+    }
+    #icon-group{
+    	background-color: #E8DEDC;
+    }
+    #icon-group .icon{
+    	
+    	margin-right: 10px;
+        width: 25px;
+
+    }
+    .banner .icon1{
+    	
+    	margin-right: 10vw;
+        width: 10vw;
+        height: 10vh;
+    }
+    .banner .icon1:hover {
+    	transform: scale(2);
+    }
+    .intro{
+    	display: flex;
+    	flex-direction: column;
+    }
+    .icon2{
+    	
+    	margin-right: 0px;
+        width: 3vw;
+        height: 3vh;
+       float: right;
+    }
+    .intro .icon2:hover {
+    	transform: scale(2);
+    }
+
+    .banner .content button {
+	margin-left: 2vw;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    color: #35eea4;
+    font-size: 1rem;
+    letter-spacing: 8px;
+    margin-top: 2vh;
+    padding: 10px;
+    transition: box-shadow 0.3s linear 0.1s;
+}
+
+.banner .content button:hover {
+    cursor: pointer;
+    box-shadow: 0 3px 20px 0 #35eea4;
+}
+
+    @media only screen and (max-width: 525px) {
+    .banner {
+    	display: flex;
+        flex-direction: row;
+        background-image:url("/home/manish/fuul code/javascript/assignment3/pic.jpeg");
+        max-width: 100%;
+        height: auto;	
+        background-repeat: no-repeat;
+        background-size:cover;
+
+    }
+    .pic .myimage{
+    	opacity: 0;
+    }
+    .banner .heading{
+    	color: #EDE8EC	;
+    }
+
+    .banner .para{
+    	color: #F9D7F2;
+    	background-color: ;
+    	 border: 1px solid #2c2c2c;
+    border-radius: 10px;
+    box-shadow: 0px 3px 20px 2px #35eea4;
+    }
+    .banner .content button {
+	margin-left: 2vw;
+    background-color:none;
+    border: none;
+    border-radius: 5px;
+    color: #35eea4;
+    font-size: 1rem;
+    letter-spacing: 8px;
+    margin-top: 50vh;
+    transition: box-shadow 0.3s linear 0.1s;
+}
+   	
+}
+.me .h2{
+	color:#E64824;
+	font-size: 2em;
+}
+
